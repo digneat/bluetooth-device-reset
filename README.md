@@ -49,6 +49,19 @@ Most "Bluetooth won't re-pair" issues are caused by stale state in step 3 that t
 - Windows 10 or 11
 - An account with admin rights (or the password to one — UAC handles the rest)
 
+## Disclaimer / Use at Your Own Risk
+
+This tool is provided **as-is, with no warranty or guarantee of any kind**. It modifies the Windows registry and removes paired Bluetooth devices — normally safe, but you're running unsigned code with administrator privileges, and software can always have bugs or behave unexpectedly on a specific machine configuration.
+
+**By running this, you accept that:**
+
+- You're doing so **at your own risk**.
+- The author and contributors are **not responsible** for any data loss, system instability, lost device pairings, or other consequences.
+- You should **read the source** (`BluetoothReset.ps1`) before running it if you have any concerns about what it does.
+- If you're not comfortable with the above, **don't run it.**
+
+The MIT License attached covers the legal side of this — this section is the plain-English version.
+
 ## License
 
 MIT
