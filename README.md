@@ -4,7 +4,7 @@ A small Windows tool that fully removes a paired Bluetooth device — Win32 API,
 
 ## Why this exists
 
-A friend's Windows PC kept losing its Bluetooth connection to a Monster speaker every few days. The usual fix — "Remove device" from **Settings → Bluetooth & devices**, then re-pair — didn't stick: Windows would either fail to reconnect or pair the speaker in a half-broken state where audio wouldn't route to it.
+A client's Windows PC kept losing its Bluetooth connection to a Monster speaker every few days. The usual fix — "Remove device" from **Settings → Bluetooth & devices**, then re-pair — didn't stick: Windows would either fail to reconnect or pair the speaker in a half-broken state where audio wouldn't route to it.
 
 The root cause was stale state in three different places that Windows' UI doesn't fully clean:
 
@@ -12,7 +12,7 @@ The root cause was stale state in three different places that Windows' UI doesn'
 2. The Plug-and-Play device records
 3. The pairing entry in `HKLM:\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters\Devices`
 
-Removing all three is what finally produces a clean re-pair. This tool is a packaged version of the script I was running manually for them — now they (and anyone else with the same problem) can run it themselves with a double-click.
+Removing all three is what finally produces a clean re-pair. This tool is a packaged version of the script I was running manually for the client — now they (and anyone else with the same problem) can run it themselves with a double-click.
 
 ## Download
 
