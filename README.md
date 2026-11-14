@@ -16,7 +16,7 @@ Removing all three is what finally produces a clean re-pair. This tool is a pack
 
 ## Download
 
-1. Go to the [latest release](https://github.com/CloudCraftPro/bluetooth-device-reset/releases/latest)
+1. Go to the [latest release](https://github.com/digneat/bluetooth-device-reset/releases/latest)
 2. Download **`BluetoothReset.zip`**
 3. Right-click the zip → **Extract All…** → pick any folder (Desktop is fine)
 4. Open the extracted folder
